@@ -31,7 +31,7 @@ export default function Home() {
       />
       <LinkButton
         href="https://wa.me/5515991156279?text=Ol%C3%A1,%20tudo%20bem%20?%20Gostaria%20de%20saber%20mais%20sobre%20a%20venda%20de%20energia."
-        content="whats app"
+        content="whatsapp"
       />
     </main>
   );
