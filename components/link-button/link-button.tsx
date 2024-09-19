@@ -5,11 +5,11 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { FaCopy } from 'react-icons/fa';
 
 interface LinkButtonProps {
-  content: string;
+  children: React.ReactNode;
   href: string;
 }
 
-export function LinkButton({ content, href }: LinkButtonProps) {
+export function LinkButton({ children, href }: LinkButtonProps) {
   return (
     <a
       className="cursor-pointer bg-black bg-opacity-40 border-black border-2 mb-2 flex items-center justify-center py-2 w-full text-white rounded-2xl"
@@ -17,7 +17,7 @@ export function LinkButton({ content, href }: LinkButtonProps) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      {content}
+      {children}
     </a>
   );
 }
