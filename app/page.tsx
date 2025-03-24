@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 export default function Home() {
   return (
-    <main className="min-h-screen md:max-w-2xl flex flex-col justify-center mx-auto items-center p-10">
+    <main className="min-h-screen md:max-w-2xl flex flex-col justify-center mx-auto items-center p-7">
       <CopyButton />
       <Image
         src="/logo-elaine.jpg"
@@ -15,7 +15,7 @@ export default function Home() {
         className="object-fill mb-3 rounded-full"
         priority
       />
-      <div className="flex my-4">
+      <div className="flex my-3 pt-2">
         <FaInstagram className="text-zinc-950" size={32} />
         <h1 className="text-center font-bold text-2xl text-zinc-950">@elainecarrielbolosedoces</h1> {/* arroba do instagram  */}
       </div>
