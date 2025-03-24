@@ -8,31 +8,36 @@ export default function Home() {
     <main className="min-h-screen md:max-w-2xl flex flex-col justify-center mx-auto items-center p-10">
       <CopyButton />
       <Image
-        src="/pauloenrik.jpg"
+        src="/logo-elaine.jpg"
         alt="insta"
         width={256}
         height={256}
         className="object-fill mb-3 rounded-full"
         priority
       />
-      <div className="flex items-center mb-16 justify-center gap-2">
-        <FaInstagram className="text-white" size={32} />
-        <h1 className="text-center text-white">paulohenrik84</h1>
+      <div className="flex my-4">
+        <FaInstagram className="text-zinc-950" size={32} />
+        <h1 className="text-center font-bold text-2xl text-zinc-950">@elainecarrielbolosedoces</h1> {/* arroba do instagram  */}
       </div>
-      <p className="border-white border-2 mb-6 rounded-3xl p-6 text-white">
-        Energia limpa para seu futuro🌿 Entre em contato para saber mais! 📲
-      </p>     
-      <LinkButton href="https://www.instagram.com/paulohenrik84?igsh=cms1c3p6Y21kejBz&utm_source=qr">  {/* link instagram */}
-        Instagram
+      <p className="bg-opacity-65 bg-zinc-950 border-pink-500 border-2 mb-6 rounded-3xl p-6 text-white"> {/* texto */}
+        Especialista em Bolos e Doces para trazer para você momentos deliciosos sem ser enjoativos.
+        Utilizamos somente produtos de qualidade para que sua degustação seja prazerosa✨
+      </p>
+      <LinkButton href="https://www.instagram.com/elainecarrielbolosedoces?igsh=c3pxMzM5Z3lrc2tl ">  {/* link instagram */}
+        instagram
       </LinkButton>
 
-      <LinkButton href="https://wa.me/5515991156279?text=Ol%C3%A1,%20tudo%20bem%20?%20Gostaria%20de%20saber%20mais%20sobre%20a%20venda%20de%20energia."> {/* link whatsapp */}
-        Whatsapp
+      <LinkButton href="https://wa.me/15991210748"> {/* link whatsapp */}
+        whatsapp
       </LinkButton>
 
-      <LinkButton href="https://ineer.com.br/"> 
-        Conheça mais sobre a ineer {<GoArrowUpRight />}
-      </LinkButton>
+      <LinkButton href="https://www.ifood.com.br/delivery/sorocaba-sp/elaine-carriel-bolos-e-doces-jardim-europa/873460d2-3629-4272-b3fe-d91593e47038?UTM_Medium=share&fbclid=PAY2xjawJOR2hleHRuA2FlbQIxMQABpmALeSkNKYKGES5QvEd82G6rX8Y71S24mbFQZ5Yo_3R4ORUMs3jBN_pTgw_aem_7G45lgxxIVIJB7vk5xeO0A ">
+        ifood
+      </LinkButton> {/* link Ifood */}
+
+      <LinkButton href="https://drive.google.com/file/d/1Zu7Oc-6kmwJ8o6Jx57buTfOzBXjl0e1D/view">
+        cardápio da páscoa
+      </LinkButton> {/* link cardapio*/}
     </main>
   );
 }
